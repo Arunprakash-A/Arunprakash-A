@@ -6,4 +6,4 @@
 - I love Writing [blogs](https://arunprakash-a.github.io/) mostly on technical side, especially for future me 😜. 
 - I like illustrating concepts using animations and interactive apps. Samples in [GeoGebra](https://www.geogebra.org/u/arunprakash_ai)
 - World view: Advaita 
-- Value System: Karma Yoga 
+- Life style: Karma Yogi
