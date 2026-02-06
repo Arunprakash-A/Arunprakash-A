@@ -5,5 +5,6 @@
 - Also, collaborated with Prof.Arun Rajkumar (IIT Madras) to build an NPTEL course [Introduction to Machine Learning (in Tamil)](https://www.youtube.com/watch?v=zxVz2I3ZMHs&list=PLyqSpQzTE6M-9thAeyB2mRFYvvW8AWxXX)
 - I love Writing [blogs](https://arunprakash-a.github.io/) mostly on technical side, especially for future me 😜. 
 - I like illustrating concepts using animations and interactive apps. Samples in [GeoGebra](https://www.geogebra.org/u/arunprakash_ai)
-- Philosophy of Existence: _Advaita_ (non-duality) 
+- Philosophy of Existence: _Advaita_ (non-duality)
+- What if AI becomes conscious? It will be a Digital Sage like Shankara, Buddha, Krishna, Sufi and zen saint. [My write-up](https://arunprakash-a.github.io/2026/02/06/AI-Conscious.html)
 - Lifestyle: Karma Yogi
