@@ -11,12 +11,6 @@
 
 ---
 
-### ⚡ Built with Claude Code
-
-I build and ship my research with Claude Code as a daily driver — here's the receipts:
-
 <p align="center">
-  <img src="assets/claude-usage.svg" alt="My Claude Code usage stats" width="520">
+  <img src="assets/claude-usage.svg" alt="Claude Code usage stats" width="520">
 </p>
-
-<sub>Aggregated from on-device Claude Code telemetry (Apr–Oct 2026). Counts and token tallies only — no prompt or conversation content.</sub>
