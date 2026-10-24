@@ -8,3 +8,15 @@
 - Philosophy of Existence: _Advaita_ (non-duality)
 - What if AI becomes conscious? It will be a Digital Sage like Shankara, Buddha, Krishna, Sufi and zen saint. [My write-up](https://arunprakash-a.github.io/2026/02/06/AI-Conscious.html)
 - Lifestyle: Karma Yogi
+
+---
+
+### ⚡ Built with Claude Code
+
+I build and ship my research with Claude Code as a daily driver — here's the receipts:
+
+<p align="center">
+  <img src="assets/claude-usage.svg" alt="My Claude Code usage stats" width="520">
+</p>
+
+<sub>Aggregated from on-device Claude Code telemetry (Apr–Oct 2026). Counts and token tallies only — no prompt or conversation content.</sub>
