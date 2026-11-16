@@ -1,82 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="304" viewBox="0 0 520 304" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="176" viewBox="0 0 520 176" font-family="Segoe UI, Helvetica, Arial, sans-serif">
 <defs>
   <radialGradient id="glow" cx="0.18" cy="0.12" r="0.9">
     <stop offset="0" stop-color="#2a1a5c" stop-opacity="0.75"/>
     <stop offset="0.5" stop-color="#160c33" stop-opacity="0.35"/>
     <stop offset="1" stop-color="#000000" stop-opacity="0"/>
   </radialGradient>
-  <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
-    <stop offset="0" stop-color="#6d49e8"/>
-    <stop offset="1" stop-color="#c9a6ff"/>
-  </linearGradient>
-  <linearGradient id="peak" x1="0" y1="1" x2="0" y2="0">
-    <stop offset="0" stop-color="#8a5cff"/>
-    <stop offset="1" stop-color="#e6d6ff"/>
-  </linearGradient>
-  <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
-    <feGaussianBlur stdDeviation="5" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <clipPath id="card"><rect x="1" y="1" width="518" height="302" rx="18"/></clipPath>
+  <clipPath id="card"><rect x="1" y="1" width="518" height="174" rx="18"/></clipPath>
 </defs>
 
-<rect x="1" y="1" width="518" height="302" rx="18" fill="#000000" stroke="#2a2342" stroke-width="1.5"/>
-<rect x="1" y="1" width="518" height="302" fill="url(#glow)" clip-path="url(#card)"/>
+<rect x="1" y="1" width="518" height="174" rx="18" fill="#000000" stroke="#2a2342" stroke-width="1.5"/>
+<rect x="1" y="1" width="518" height="174" fill="url(#glow)" clip-path="url(#card)"/>
 
 <!-- header -->
 <text x="26" y="42" font-size="21" font-weight="700" fill="#ffffff">⚡ Work Horse: Claude Opus</text>
-<text x="26" y="63" font-size="11.5" fill="#8a7fb0" letter-spacing="0.3">Across 5 GPU hosts  ·  6-month window  ·  t = month-to-date</text>
+<text x="26" y="63" font-size="11.5" fill="#8a7fb0" letter-spacing="0.3">Across 5 GPU hosts  ·  6-month window</text>
 <rect x="26" y="74" width="468" height="1" fill="#ffffff" opacity="0.08"/>
 
 <!-- stat tiles -->
-<text x="84"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">532</text>
-<text x="84"  y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">SESSIONS</text>
-<text x="202"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">220.19K</text>
-<text x="202"  y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">MESSAGES</text>
-<text x="318"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">19.12B</text>
-<text x="318"  y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">TOKENS</text>
-<text x="436"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">47.96K</text>
-<text x="436"  y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">TOOL CALLS</text>
-<rect x="143" y="98" width="1" height="30" fill="#ffffff" opacity="0.07"/>
-<rect x="260" y="98" width="1" height="30" fill="#ffffff" opacity="0.07"/>
-<rect x="377" y="98" width="1" height="30" fill="#ffffff" opacity="0.07"/>
-
-<!-- chart -->
-<text x="26" y="162" font-size="12.5" fill="#8a7fb0">Monthly messages</text>
-
-<!-- gridlines -->
-<rect x="40" y="252" width="440" height="1" fill="#ffffff" opacity="0.14"/>
-<rect x="40" y="222" width="440" height="1" fill="#ffffff" opacity="0.05"/>
-<rect x="40" y="192" width="440" height="1" fill="#ffffff" opacity="0.05"/>
-<rect x="40" y="162" width="440" height="1" fill="#ffffff" opacity="0.05"/>
-
-<!-- bars (baseline y=252, max 104px @ 90,275 msgs) -->
-<g>
-  <rect x="54.7" y="246.3" width="44" height="5.7" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="5.7" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="246.3" dur="0.9s" fill="freeze"/></rect>
-  <rect x="128.0" y="240.5" width="44" height="11.5" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="11.5" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="240.5" dur="0.9s" fill="freeze"/></rect>
-  <rect x="201.3" y="233.6" width="44" height="18.4" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="18.4" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="233.6" dur="0.9s" fill="freeze"/></rect>
-  <rect x="274.7" y="148.0" width="44" height="104.0" rx="2.5" fill="url(#peak)" filter="url(#soft)"><animate attributeName="height" from="0" to="104.0" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="148.0" dur="0.9s" fill="freeze"/></rect>
-  <rect x="348.0" y="164.8" width="44" height="87.2" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="87.2" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="164.8" dur="0.9s" fill="freeze"/></rect>
-  <rect x="421.3" y="225.2" width="44" height="26.8" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="26.8" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="225.2" dur="0.9s" fill="freeze"/></rect>
-</g>
-
-<!-- value labels -->
-<text x="76.7" y="238.3" font-size="9.5" fill="#b5a7e0" text-anchor="middle">4.9K</text>
-<text x="150.0" y="232.5" font-size="9.5" fill="#b5a7e0" text-anchor="middle">10K</text>
-<text x="223.3" y="225.6" font-size="9.5" fill="#cbbcf5" text-anchor="middle">16K</text>
-<text x="296.7" y="142.0" font-size="10"  fill="#f0e6ff" font-weight="700" text-anchor="middle">90K</text>
-<text x="370.0" y="156.8" font-size="9.5" fill="#cbbcf5" text-anchor="middle">76K</text>
-<text x="443.3" y="217.2" font-size="9.5" fill="#cbbcf5" text-anchor="middle">23K</text>
-
-<!-- month labels -->
-<text x="76.7" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-5</text>
-<text x="150.0" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-4</text>
-<text x="223.3" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-3</text>
-<text x="296.7" y="266" font-size="10" fill="#9f93cc" font-weight="700" text-anchor="middle">t-2</text>
-<text x="370.0" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-1</text>
-<text x="443.3" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t</text>
+<text x="84" y="116" font-size="26" font-weight="800" fill="#efe6ff" text-anchor="middle">532</text>
+<text x="84" y="135" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">SESSIONS</text>
+<text x="202" y="116" font-size="26" font-weight="800" fill="#efe6ff" text-anchor="middle">220.19K</text>
+<text x="202" y="135" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">MESSAGES</text>
+<text x="318" y="116" font-size="26" font-weight="800" fill="#efe6ff" text-anchor="middle">19.12B</text>
+<text x="318" y="135" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">TOKENS</text>
+<text x="436" y="116" font-size="26" font-weight="800" fill="#efe6ff" text-anchor="middle">47.96K</text>
+<text x="436" y="135" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">TOOL CALLS</text>
+<rect x="143" y="99" width="1" height="34" fill="#ffffff" opacity="0.07"/>
+<rect x="260" y="99" width="1" height="34" fill="#ffffff" opacity="0.07"/>
+<rect x="377" y="99" width="1" height="34" fill="#ffffff" opacity="0.07"/>
 
 <!-- footer -->
-<rect x="26" y="280" width="468" height="1" fill="#ffffff" opacity="0.06"/>
-<text x="26" y="298" font-size="11" fill="#8a7fb0">🏆 <tspan fill="#c9a6ff" font-weight="700">Opus 5</tspan>  ·  117 active days  ·  busiest day 10.9K msgs  ·  244h longest run</text>
+<rect x="26" y="150" width="468" height="1" fill="#ffffff" opacity="0.06"/>
+<text x="26" y="167" font-size="11" fill="#8a7fb0">🏆 <tspan fill="#c9a6ff" font-weight="700">Opus 5</tspan>  ·  117 active days  ·  busiest day 10.9K msgs  ·  244h longest run</text>
 </svg>
