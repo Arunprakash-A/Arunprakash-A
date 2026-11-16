@@ -25,24 +25,24 @@
 
 <!-- header -->
 <text x="26" y="42" font-size="21" font-weight="700" fill="#ffffff">⚡ Work Horse: Claude Opus</text>
-<text x="26" y="63" font-size="11.5" fill="#8a7fb0" letter-spacing="0.3">Across 4 GPU hosts  ·  6-month window</text>
+<text x="26" y="63" font-size="11.5" fill="#8a7fb0" letter-spacing="0.3">Across 4 GPU hosts  ·  6-month window  ·  t = month-to-date</text>
 <rect x="26" y="74" width="468" height="1" fill="#ffffff" opacity="0.08"/>
 
 <!-- stat tiles -->
-<text x="84"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">389</text>
+<text x="84"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">501</text>
 <text x="84"  y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">SESSIONS</text>
-<text x="202" y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">177.78K</text>
-<text x="202" y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">MESSAGES</text>
-<text x="318" y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">15.26B</text>
-<text x="318" y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">TOKENS</text>
-<text x="436" y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">36.84K</text>
-<text x="436" y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">TOOL CALLS</text>
+<text x="202"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">204.45K</text>
+<text x="202"  y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">MESSAGES</text>
+<text x="318"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">16.83B</text>
+<text x="318"  y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">TOKENS</text>
+<text x="436"  y="112" font-size="23" font-weight="800" fill="#efe6ff" text-anchor="middle">44.87K</text>
+<text x="436"  y="130" font-size="10.5" fill="#7d73a3" text-anchor="middle" letter-spacing="0.4">TOOL CALLS</text>
 <rect x="143" y="98" width="1" height="30" fill="#ffffff" opacity="0.07"/>
 <rect x="260" y="98" width="1" height="30" fill="#ffffff" opacity="0.07"/>
 <rect x="377" y="98" width="1" height="30" fill="#ffffff" opacity="0.07"/>
 
 <!-- chart -->
-<text x="26" y="162" font-size="12.5" fill="#8a7fb0">Monthly messages — the ramp</text>
+<text x="26" y="162" font-size="12.5" fill="#8a7fb0">Monthly messages</text>
 
 <!-- gridlines -->
 <rect x="40" y="252" width="440" height="1" fill="#ffffff" opacity="0.14"/>
@@ -50,33 +50,33 @@
 <rect x="40" y="192" width="440" height="1" fill="#ffffff" opacity="0.05"/>
 <rect x="40" y="162" width="440" height="1" fill="#ffffff" opacity="0.05"/>
 
-<!-- bars (baseline y=252, max 122px @ 90K) -->
+<!-- bars (baseline y=252, max 104px @ 90,275 msgs) -->
 <g>
-  <rect x="54.7"  y="250.0" width="44" height="2.0"  rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="2.0"  dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="250.0" dur="0.9s" fill="freeze"/></rect>
-  <rect x="128.0" y="245.2" width="44" height="6.8"  rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="6.8"  dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="245.2" dur="0.9s" fill="freeze"/></rect>
-  <rect x="201.3" y="238.4" width="44" height="13.6" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="13.6" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="238.4" dur="0.9s" fill="freeze"/></rect>
-  <rect x="274.7" y="230.3" width="44" height="21.7" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="21.7" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="230.3" dur="0.9s" fill="freeze"/></rect>
-  <rect x="348.0" y="130.0" width="44" height="122.0" rx="2.5" fill="url(#peak)" filter="url(#soft)"><animate attributeName="height" from="0" to="122.0" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="130.0" dur="0.9s" fill="freeze"/></rect>
-  <rect x="421.3" y="176.1" width="44" height="75.9" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="75.9" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="176.1" dur="0.9s" fill="freeze"/></rect>
+  <rect x="54.7" y="246.3" width="44" height="5.7" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="5.7" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="246.3" dur="0.9s" fill="freeze"/></rect>
+  <rect x="128.0" y="240.5" width="44" height="11.5" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="11.5" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="240.5" dur="0.9s" fill="freeze"/></rect>
+  <rect x="201.3" y="233.6" width="44" height="18.4" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="18.4" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="233.6" dur="0.9s" fill="freeze"/></rect>
+  <rect x="274.7" y="148.0" width="44" height="104.0" rx="2.5" fill="url(#peak)" filter="url(#soft)"><animate attributeName="height" from="0" to="104.0" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="148.0" dur="0.9s" fill="freeze"/></rect>
+  <rect x="348.0" y="172.3" width="44" height="79.7" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="79.7" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="172.3" dur="0.9s" fill="freeze"/></rect>
+  <rect x="421.3" y="235.8" width="44" height="16.2" rx="2.5" fill="url(#bar)"><animate attributeName="height" from="0" to="16.2" dur="0.9s" fill="freeze"/><animate attributeName="y" from="252" to="235.8" dur="0.9s" fill="freeze"/></rect>
 </g>
 
 <!-- value labels -->
-<text x="76.7"  y="244.0" font-size="9.5" fill="#b5a7e0" text-anchor="middle">834</text>
-<text x="150.0" y="239.2" font-size="9.5" fill="#b5a7e0" text-anchor="middle">5K</text>
-<text x="223.3" y="232.4" font-size="9.5" fill="#b5a7e0" text-anchor="middle">10K</text>
-<text x="296.7" y="224.3" font-size="9.5" fill="#cbbcf5" text-anchor="middle">16K</text>
-<text x="370.0" y="124.0" font-size="10"  fill="#f0e6ff" font-weight="700" text-anchor="middle">90K</text>
-<text x="443.3" y="170.1" font-size="9.5" fill="#cbbcf5" text-anchor="middle">56K</text>
+<text x="76.7" y="238.3" font-size="9.5" fill="#b5a7e0" text-anchor="middle">4.9K</text>
+<text x="150.0" y="232.5" font-size="9.5" fill="#b5a7e0" text-anchor="middle">10K</text>
+<text x="223.3" y="225.6" font-size="9.5" fill="#cbbcf5" text-anchor="middle">16K</text>
+<text x="296.7" y="142.0" font-size="10"  fill="#f0e6ff" font-weight="700" text-anchor="middle">90K</text>
+<text x="370.0" y="164.3" font-size="9.5" fill="#cbbcf5" text-anchor="middle">69K</text>
+<text x="443.3" y="227.8" font-size="9.5" fill="#cbbcf5" text-anchor="middle">14K</text>
 
 <!-- month labels -->
-<text x="76.7"  y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-5</text>
+<text x="76.7" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-5</text>
 <text x="150.0" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-4</text>
 <text x="223.3" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-3</text>
-<text x="296.7" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-2</text>
-<text x="370.0" y="266" font-size="10" fill="#9f93cc" font-weight="700" text-anchor="middle">t-1</text>
+<text x="296.7" y="266" font-size="10" fill="#9f93cc" font-weight="700" text-anchor="middle">t-2</text>
+<text x="370.0" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t-1</text>
 <text x="443.3" y="266" font-size="10" fill="#6f6694" text-anchor="middle">t</text>
 
 <!-- footer -->
 <rect x="26" y="280" width="468" height="1" fill="#ffffff" opacity="0.06"/>
-<text x="26" y="298" font-size="11" fill="#8a7fb0">🏆 <tspan fill="#c9a6ff" font-weight="700">Opus 5</tspan>  ·  94 active days  ·  busiest day 10.9K msgs  ·  244h longest run</text>
+<text x="26" y="298" font-size="11" fill="#8a7fb0">🏆 <tspan fill="#c9a6ff" font-weight="700">Opus 5</tspan>  ·  117 active days  ·  busiest day 10.9K msgs  ·  244h longest run</text>
 </svg>
