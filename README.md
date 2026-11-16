@@ -7,7 +7,7 @@
 - I like illustrating concepts using animations and interactive apps. Samples in [GeoGebra](https://www.geogebra.org/u/arunprakash_ai)
 - Philosophy of Existence: _Advaita_ (non-duality)
 - What if AI becomes conscious? It will be a Digital Sage like Shankara, Buddha, Krishna, Sufi and zen saint. [My write-up](https://arunprakash-a.github.io/2026/02/06/AI-Conscious.html)
-- Lifestyle: Karma Yogi
+- Lifestyle (Abhyāsa) : Karma Yoga
 
 ---
 
